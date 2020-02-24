@@ -1,0 +1,131 @@
+.CartPremiumPackaging{
+    width: 100%;
+    float: none;
+}
+
+@media screen and (min-width: 860px) {
+  .CartPremiumPackaging {
+      width: 49%;
+      float: left;
+  }
+}
+
+.CartPremiumPackagingImg {
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.CartPremiumPackagingForm{
+  padding: 1em 0;
+}
+
+.CartPremiumPackagingImg img{
+  width:200px;
+  height:200px;
+}
+
+.site-inner.woocommerce-error,
+.site-inner.woocommerce-info,
+.site-inner.woocommerce-message {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    border-top: 3px solid #a46497;
+    list-style: none outside;
+    width: 49%;
+    word-wrap: break-word;
+    float: right;
+}
+
+.CartPremiumPackagingForm input#addPackaging {
+    width: 100%;
+}
+
+.site-inner .woocommerce-info {
+    width:100%;
+    float: none;
+    // background-color: #f9e6ab;
+}
+
+
+
+
+/*********/
+
+.plugin-message {
+    padding: 1em 2em 1em 2em;
+    margin: 0 0 2em;
+    position: relative;
+    // background-color: #f9e6ab;
+    color: #515151;
+    border-top: 3px solid #0073e5;;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.plugin-message{
+  display: none;
+}
+
+.plugin-message.mystyle {
+  display: block;
+}
+
+
+.cart-collaterals .woocommerce-info {
+    display: none;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/**********************/
+
+.ppContainer{
+    /* border-top: 1px solid #333; */
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.ppImg{
+  text-align: center;
+}
+
+.ppForm {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.ppText{
+  text-align: center;
+
+}
+
+@media screen and (min-width: 860px) {
+  .ppTextContainer,
+  .ppImg {
+      width: 49%;
+      float: left;
+  }
+
+  .ppText{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+}
